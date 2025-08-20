@@ -109,9 +109,9 @@ def index():
           height: 100%;
           background: #ffffff;
           color: #37352f;
-          margin: 0;
+          margin: 0;            
           font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        }}
+                    }}
         .wrap {{
           height: 100%;
           display: flex;
@@ -121,12 +121,12 @@ def index():
           flex-direction: column;
           padding: 16px;
         }}
-        .title {{ font-weight: 600; opacity: .9; }}
+        .title {{ font-weight: 600; opacity: .9; color: #2a2f58;}}
         .meta {{ opacity: .8; font-size: 14px; }}
         svg {{ filter: drop-shadow(0 6px 16px rgba(0,0,0,.4)); }}
-        .track {{ stroke: #37352f; }}
+        .track {{ stroke: #2a2f58; }}
         .bar {{
-          stroke: #37352f;
+          stroke: #7aa2ff;
           transition: stroke-dasharray 1s ease-out;
         }}
       </style>
@@ -152,7 +152,10 @@ def index():
           <text x="18" y="19.5" fill="#eaf0ff" font-size="5" text-anchor="middle" style="font-weight:700">
             Niv {level}
           </text>
-          
+          <!-- pourcentage dessous -->
+          <text x="18" y="24" fill="#c7d2fe" font-size="3" text-anchor="middle">
+            {progress:.0f}% vers le prochain niveau
+          </text>
         </svg>
         <div class="meta">{xp_tot} XP total • {LEVEL_XP} XP / niveau</div>
       </div>
