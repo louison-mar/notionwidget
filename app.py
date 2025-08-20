@@ -149,12 +149,12 @@ def index():
             fill="none" stroke-width="2"
             stroke-dasharray="{progress:.2f}, 100" />
           <!-- niveau au centre -->
-          <text x="18" y="19.5" fill="#eaf0ff" font-size="5" text-anchor="middle" style="font-weight:700">
+          <text x="18" y="19.5" fill="#37352f" font-size="5" text-anchor="middle" style="font-weight:700">
             Niv {level}
           </text>
           <!-- pourcentage dessous -->
-          <text x="18" y="24" fill="#c7d2fe" font-size="3" text-anchor="middle">
-            {progress:.0f}% vers le prochain niveau
+          <text x="18" y="24" fill="#37352f" font-size="3" text-anchor="middle">
+            {progress:.0f}%
           </text>
         </svg>
         <div class="meta">{xp_tot} XP total • {LEVEL_XP} XP / niveau</div>
