@@ -107,10 +107,10 @@ def index():
       <style>
         html, body {{
           height: 100%;
-          background: #0f1226;
-          color: #eaf0ff;
+          background: #ffffff;
+          color: #37352f;
           margin: 0;
-          font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
+          font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }}
         .wrap {{
           height: 100%;
