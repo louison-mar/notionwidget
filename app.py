@@ -124,9 +124,9 @@ def index():
         .title {{ font-weight: 600; opacity: .9; }}
         .meta {{ opacity: .8; font-size: 14px; }}
         svg {{ filter: drop-shadow(0 6px 16px rgba(0,0,0,.4)); }}
-        .track {{ stroke: #2a2f58; }}
+        .track {{ stroke: #37352f; }}
         .bar {{
-          stroke: #7aa2ff;
+          stroke: #37352f;
           transition: stroke-dasharray 1s ease-out;
         }}
       </style>
